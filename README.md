@@ -1,3 +1,5 @@
+## I've created this repo to use as base to my new projects that use FastAPI
+
 
 Setup
 #### Python Version: 3.11
