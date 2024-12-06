@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["caio-sts <caio.santos@alu.ufc.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.10,<3.12"
+fastapi = "^0.115.5"
+dependency-injector = "^4.43.0"
+sqlalchemy = "^2.0.36"
+python-decouple = "^3.8"
+uvicorn = {extras = ["standard"], version = "^0.32.1"}
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
